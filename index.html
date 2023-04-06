@@ -61,11 +61,39 @@
     <nav class="bg-gray-800">
     <div class="container flex">
     <!--All Catagories  -->
-      <div class="px-8 py-4 bg-primary">
+      <div class="px-8 py-4 bg-primary flex items-center cursor-pointer relative group">
         <span class="text-white">
           <i class="fa-solid fa-bars"></i>
         </span>
         <span class="text-white ml-2">All Catagories</span>
+        
+
+        <div class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-500 invisible group-hover:visible">
+          <!-- Single catagory -->
+            <a href="#" class="px-6 py-3 flex items-center hover:bg-gray-100 transition">
+              <i class="fa-regular fa-boot-heeled w-5 h-5 object-contain"></i>
+              <span class=" ml-6 text-gray-600 text-sm">Shoes</span>
+            </a>
+          <!-- Single catagory End -->
+          <!-- Single catagory -->
+          <a href="#" class="px-6 py-3 flex items-center hover:bg-gray-100 transition">
+            <i class="fa-thin fa-person w-5 h-5 object-contain"></i>
+            <span class="ml-6 text-gray-600 text-sm">Men</span>
+          </a>
+        <!-- Single catagory End -->
+        <!-- Single catagory -->
+        <a href="#" class="px-6 py-3 flex items-center hover:bg-gray-100 transition">
+          <i class="fa-light fa-person-dress"></i>
+          <span class="ml-6 text-gray-600 text-sm">Women</span>
+        </a>
+      <!-- Single catagory End -->
+      <!-- Single catagory -->
+      <a href="#" class="px-6 py-3 flex items-center hover:bg-gray-100 transition">
+        <i class="fa-light fa-watch"></i>
+        <span class="ml-6 text-gray-600 text-sm">Watches</span>
+      </a>
+    <!-- Single catagory End -->
+        </div>
       </div>
     <!--All Catagories End  -->
 
@@ -87,6 +115,23 @@
     </nav>
 
   <!-- Navbar End -->
+
+  <!-- Banner -->
+
+    <div class="bg-cover bg-no-repeat bg-center py-36" style="background-image: url(img/banner-1.jpg);">
+      <div class="container">
+        <h1 class="text-6xl text-gray-800 font-medium mb-4 capitalize">
+          Best Collection For <br> Home Decoration
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate <br> rhoncus pellentesque id integer neque, vel accumsan dolor diam.</p>
+        <div class="mt-12">
+          
+          <a href="#" class=" bg-primary border border-primary text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary transition"> Shop Now</a>
+        
+        </div>
+      </div>
+    </div>
+  <!-- Banner End -->
   
 </body>
 </html>
