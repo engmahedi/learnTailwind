@@ -100,8 +100,8 @@
     <!-- Navbar Link -->
     <div class="flex items-center justify-between flex-grow pl-10">
       <div class="flex items-center justify-between text-white space-x-6 capitalize">
-        <a href="index.html" class="text-gray-200 hover:text-white transition">Home</a>
-        <a href="shop.html" class="text-gray-200 hover:text-white transition">shop</a>
+        <a href="#" class="text-gray-200 hover:text-white transition">Home</a>
+        <a href="#" class="text-gray-200 hover:text-white transition">shop</a>
         <a href="#" class="text-gray-200 hover:text-white transition">about us</a>
         <a href="#" class="text-gray-200 hover:text-white transition">contact us</a>
         
@@ -115,142 +115,202 @@
     </nav>
 
   <!-- Navbar End -->
+  <!-- Breadcrums -->
+    <div class="container py-4 flex items-center gap-3">
+      <a href="index.html" class="text-primary text-base">
+        <i class="fa-light fa-house"></i>
+                
+      </a>
+      <span class="text-sm text-gray-400">
+        <i class="fa-regular fa-chevron-right"></i>
+      </span>
+      <p class="text-gray-600 font-medium">Shop</p>
+    </div>
+  <!-- Breadcrums End -->
+  <!-- Shop Wrapper -->
+    <div class="container grid grid-cols-4 gap-6 pt-4 pb-16 items-start">
+      <!-- Sidebar -->
+      <div class="col-span-1 bg-white px-4 pb-6 shadow rounded overflow-hidden">
+        <div class="divide-y divide-gray-200 space-y-5">
+          <!-- Catagory Filter -->
+          <div>
+            <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">catagories</h3>
+            <div class="space-y-2">
+              
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Beadroom</label>
+                <div class="ml-auto text-gray-600 text-sm">(15)</div>
+              </div>
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Sofa</label>
+                <div class="ml-auto text-gray-600 text-sm">(05)</div>
+              </div>
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Office</label>
+                <div class="ml-auto text-gray-600 text-sm">(09)</div>
+              </div>
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Outdoor</label>
+                <div class="ml-auto text-gray-600 text-sm">(19)</div>
+              </div>
 
-  <!-- Banner -->
+            </div>
+          </div>
+          <!-- Catagory Filter End -->
+          <!-- Brand Filter -->
+          <div class="pt-4">
+            <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">brand</h3>
+            <div class="space-y-2">
+              
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Dominik</label>
+                <div class="ml-auto text-gray-600 text-sm">(15)</div>
+              </div>
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Karl</label>
+                <div class="ml-auto text-gray-600 text-sm">(18)</div>
+              </div>
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Maxing</label>
+                <div class="ml-auto text-gray-600 text-sm">(09)</div>
+              </div>
+              <div class="flex items-center">
+                <input type="checkbox" id="cat-1" class="text-primary focus:ring-0 rounded-sm cursor-pointer">
+                <label for="cat-1" class="text-gray-600 ml-3 cursor-pointer">Emnest</label>
+                <div class="ml-auto text-gray-600 text-sm">(12)</div>
+              </div>
 
-    <div class="bg-cover bg-no-repeat bg-center py-36" style="background-image: url(img/banner-1.jpg);">
-      <div class="container">
-        <h1 class="text-6xl text-gray-800 font-medium mb-4 capitalize">
-          Best Collection For <br> Home Decoration
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate <br> rhoncus pellentesque id integer neque, vel accumsan dolor diam.</p>
-        <div class="mt-12">
-          
-          <a href="#" class=" bg-primary border border-primary text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary transition"> Shop Now</a>
+            </div>
+          </div>
+          <!-- Brand Filter End -->
+
+          <!-- Price Filter -->
+          <div class="pt-4">
+            <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">price</h3>
+            <div class="mt-4 flex items-center">
+              <input type="text" class="w-full border-gray-300 focus:border-primary focus:ring-0 px-3 py-1 shadow-sm text-sm text-gray-600 rounded" placeholder="min">
+              <span class="mx-3 text-gray-500">-</span>
+              <input type="text" class="w-full border-gray-300 focus:border-primary focus:ring-0 px-3 py-1 shadow-sm text-sm text-gray-600 rounded" placeholder="max">
+
+            </div>
+
+          </div>
+          <!-- Price Filter End -->
+
+
+          <!-- Size Filter -->
+          <div class="pt-4">
+            <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">size</h3>
+            <div class="flex items-center gap-2">
+              <!-- Single Size -->
+              <div class="size-selector">
+                <input type="radio" name="size" class="hidden" id="size-xs">
+                <label for="size-xs" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-500">xs</label>
+
+              </div>
+
+              <!-- Single Size End -->
+              <!-- Single Size -->
+              <div class="size-selector">
+                <input type="radio" name="size" class="hidden" id="size-s">
+                <label for="size-s" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-500">s</label>
+
+              </div>
+
+              <!-- Single Size End -->
+              <!-- Single Size -->
+              <div class="size-selector">
+                <input type="radio" name="size" class="hidden" id="size-m">
+                <label for="size-m" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-500">M</label>
+
+              </div>
+
+              <!-- Single Size End -->
+              <!-- Single Size -->
+              <div class="size-selector">
+                <input type="radio" name="size" class="hidden" id="size-l">
+                <label for="size-l" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-500">L</label>
+
+              </div>
+
+              <!-- Single Size End -->
+              <!-- Single Size -->
+              <div class="size-selector">
+                <input type="radio" name="size" class="hidden" id="size-xl">
+                <label for="size-xl" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-500">XL</label>
+
+              </div>
+
+              <!-- Single Size End -->
+
+            </div>
+          </div>
+          <!-- Size Filter End -->
+
+          <!-- Color Filter  -->
+
+          <div class="pt-4">
+            <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">color</h3>
+            <div class="flex items-center gap-2">
+              <!-- single color -->
+              <div class="color-selector">
+                <input type="radio" name="color" class="hidden" id="color-red">
+                <label for="color-red" class="border border-gray-200 rounded-sm h-5 w-5 cursor-pointer shadow-sm block" style="background-color: #fc3d57;"></label>
+
+              </div>
+              <!-- single color end -->
+              <!-- single color -->
+              <div class="color-selector">
+                <input type="radio" name="color" class="hidden" id="color-white">
+                <label for="color-white" class="border border-gray-200 rounded-sm h-5 w-5 cursor-pointer shadow-sm block" style="background-color: #fff;"></label>
+
+              </div>
+              <!-- single color end -->
+              <!-- single color -->
+              <div class="color-selector">
+                <input type="radio" name="color" class="hidden" id="color-black">
+                <label for="color-black" class="border border-gray-200 rounded-sm h-5 w-5 cursor-pointer shadow-sm block" style="background-color: #000;"></label>
+
+              </div>
+              <!-- single color end -->
+            </div>
+          </div>
+          <!-- Color Filter End -->
+
+
+        </div>
+      </div>
+      <!-- Sidebar Ends-->
+      <!-- products -->
+      <div class="col-span-3">
+        <!-- sorting -->
+        <div class="flex items-center mb-4">
+          <select class="w-44 text-sm text-gray-600 px-4 py-3 border-gray-300 shadow-sm rounded focus:ring-primary focus:border-primary">
+            <option>Default sorting</option>
+            <option>Price Low-High</option>
+            <option>Price High-Low</option>
+            <option>Latest Product</option>
+          </select>
+          <div class="flex gap-2 ml-auto">
+            <div class="border border-primary w-10 h-9 flex items-center justify-center text-white bg-primary rounded cursor-pointer">
+              <i class="fa-solid fa-grid-2"></i>
+            </div>
+            <div class="border border-gray-300 w-10 h-9 flex items-center justify-center text-gray-600 rounded cursor-pointer">
+              <i class="fa-solid fa-list"></i>
+            </div>
+          </div>
+        </div>
+        <!-- sorting end -->
+
         
-        </div>
-      </div>
-    </div>
-  <!-- Banner End -->
-
-  <!-- Feature Section-->
-  <div class="container py-16">
-    <div class="w-10/12 grid grid-cols-3 gap-6 mx-auto justify-center">
-      <!-- Single Feature -->
-      <div class="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
-        <img src="img/delivery-van.svg" class="w-12 h-12 object-contain">
-        <div>
-          <h4 class="font-medium capitalize text-lg">free shopping</h4>
-          <p class="text-gray-500 text-sm">order over $200</p>
-        </div>
-      </div>
-
-      <!-- Single Feature End-->
-      <!-- Single Feature -->
-      <div class="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
-        <img src="img/money-back.svg" class="w-12 h-12 object-contain">
-        <div>
-          <h4 class="font-medium capitalize text-lg">money returns</h4>
-          <p class="text-gray-500 text-sm">30 days money return</p>
-        </div>
-      </div>
-
-      <!-- Single Feature End-->
-      <!-- Single Feature -->
-      <div class="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
-        <img src="img/service-hours.svg" class="w-12 h-12 object-contain">
-        <div>
-          <h4 class="font-medium capitalize text-lg">24/7 Support</h4>
-          <p class="text-gray-500 text-sm">Customer support</p>
-        </div>
-      </div>
-
-      <!-- Single Feature End-->
-
-    </div>
-  </div>
-  <!-- Feature Section End-->
-
-  <!-- Offer Section -->
-    <div class="container py-6 grid grid-cols-2 gap-6 mx-auto justify-center">
-      <!-- Single Offer -->
-      <div class="bg-pink-100 py-6 px-8 flex justify-between items-center">
-        <div >
-          <h5 class="text-primary font-medium text-lg">30% offer</h5>
-          <h2 class=" font-bold py-1 text-lg">Free Shipping</h2>
-          <p class="mb-5">Attractive Natural Furniture</p>
-          <a href="#" class="bg-primary border border-primary text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary transition">shop now</a>
-        </div>
-        <img src="img/sofa-1.png" class="w-52 h-52 object-contain">
-
-      </div>
-      <!-- Single Offer End -->
-      <!-- Single Offer -->
-      <div class="bg-gray-200 py-6 px-8 flex justify-between items-center">
-        <div >
-          <h5 class="text-primary font-medium text-lg">50% offer</h5>
-          <h2 class=" font-bold py-1 text-lg">Flash Sale</h2>
-          <p class="mb-5">Attractive Natural Furniture</p>
-          <a href="#" class="bg-primary border border-primary text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary transition">shop now</a>
-        </div>
-        <img src="img/sofa-2.png" class="w-52 h-52 object-contain">
-
-      </div>
-      <!-- Single Offer End -->
-
-    </div>
-  <!-- Offer Section End -->
-  <!-- Catagories Section -->
-  <div class="container py-16">
-    <h2 class="text-3xl font-medium text-gray-800 uppercase mb-6">
-      shop by category
-    </h2>
-    <div class="grid grid-cols-3 gap-3">
-      <!-- Single Category -->
-      <div class="relative rounded-sm overflow-hidden group">
-        <img src="img/category-1.jpg" class="w-full">
-        <a href="#" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Roboto font-medium group-hover:bg-opacity-60 transition">Bedroom</a>
-      </div>
-      <!-- Single Category End -->
-      <!-- Single Category -->
-      <div class="relative rounded-sm overflow-hidden group">
-        <img src="img/category-2.jpg" class="w-full">
-        <a href="#" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Roboto font-medium group-hover:bg-opacity-60 transition">Mattresses</a>
-      </div>
-      <!-- Single Category End -->
-      <!-- Single Category -->
-      <div class="relative rounded-sm overflow-hidden group">
-        <img src="img/category-3.jpg" class="w-full">
-        <a href="#" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Roboto font-medium group-hover:bg-opacity-60 transition">Office</a>
-      </div>
-      <!-- Single Category End -->
-      <!-- Single Category -->
-      <div class="relative rounded-sm overflow-hidden group">
-        <img src="img/category-4.jpg" class="w-full">
-        <a href="#" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Roboto font-medium group-hover:bg-opacity-60 transition">Outdoor</a>
-      </div>
-      <!-- Single Category End -->
-      <!-- Single Category -->
-      <div class="relative rounded-sm overflow-hidden group">
-        <img src="img/category-5.jpg" class="w-full">
-        <a href="#" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Roboto font-medium group-hover:bg-opacity-60 transition">Sofas</a>
-      </div>
-      <!-- Single Category End -->
-      <!-- Single Category -->
-      <div class="relative rounded-sm overflow-hidden group">
-        <img src="img/category-6.jpg" class="w-full">
-        <a href="#" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Roboto font-medium group-hover:bg-opacity-60 transition">Living & Dining</a>
-      </div>
-      <!-- Single Category End -->
-    </div>
-  </div>
-  <!-- Catagories Section End -->
-
-  <!-- Product Section -->
-  <div class="container pb-16">
-    <h2 class="text-2xl font-medium text-gray-800 mb-6">TOP NEW ARRIVAL</h2>
-    <!-- Products -->
-    <div class="grid grid-cols-4 gap-6">
+    <div class="grid grid-cols-3 gap-6">
       <!-- Single Product -->
       <div class="bg-white shadow rounded overflow-hidden group">
         <!-- product image -->
@@ -411,26 +471,6 @@
 
       </div>
       <!-- Single Product End -->
-
-    </div>
-    <!-- Products End -->
-
-  </div>
-  <!-- Product Section End -->
-
-  <!-- Ad Section -->
-  <div class="container pb-16">
-    <a href="#">
-      <img src="img/offer-2.jpg" class="w-full">
-    </a>
-  </div>
-  <!-- Ad Section End -->
-
-  <!-- Product Section -->
-  <div class="container pb-16">
-    <h2 class="text-2xl font-medium text-gray-800 mb-6">RECOMENDED FOR YOU</h2>
-    <!-- Products -->
-    <div class="grid grid-cols-4 gap-6">
       <!-- Single Product -->
       <div class="bg-white shadow rounded overflow-hidden group">
         <!-- product image -->
@@ -475,7 +515,7 @@
       <div class="bg-white shadow rounded overflow-hidden group">
         <!-- product image -->
         <div class="relative">
-          <img src="img/product1.jpg" alt="" class="w-full">
+          <img src="img/product9.jpg" alt="" class="w-full">
           <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
             <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition">
               <i class="fa-light fa-magnifying-glass"></i>
@@ -489,87 +529,7 @@
         <!-- Product Content -->
         <div class="pt-4 pb-3 px-4">
           <a href="#">
-            <h4 class="font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">MADELINE SOFA</h4>
-          </a>
-          <div class="flex items-baseline mb-1 space-x-2 font-Roboto">
-            <p class="text-xl text-primary font-semibold">$120.00</p>
-            <p class="text-sm text-gray-400 line-through">$200.00</p>
-          </div>
-          <div class="flex items-center">
-            <div class="flex gap-1 text-sm text-yellow-400">
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-            <div class="text-xs text-gray-500 ml-3">(150)</div>
-          </div>
-        </div>
-        <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add to Cart</a>
-        <!-- Product Content End -->
-
-      </div>
-      <!-- Single Product End -->
-      <!-- Single Product -->
-      <div class="bg-white shadow rounded overflow-hidden group">
-        <!-- product image -->
-        <div class="relative">
-          <img src="img/product8.jpg" alt="" class="w-full">
-          <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-            <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition">
-              <i class="fa-light fa-magnifying-glass"></i>
-            </a>
-            <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition">
-              <i class="fa-light fa-heart"></i>
-            </a>
-          </div>
-        </div>
-        <!-- product image End -->
-        <!-- Product Content -->
-        <div class="pt-4 pb-3 px-4">
-          <a href="#">
-            <h4 class="font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">BIANCO Chair</h4>
-          </a>
-          <div class="flex items-baseline mb-1 space-x-2 font-Roboto">
-            <p class="text-xl text-primary font-semibold">$45.00</p>
-            <p class="text-sm text-gray-400 line-through">$55.00</p>
-          </div>
-          <div class="flex items-center">
-            <div class="flex gap-1 text-sm text-yellow-400">
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-            <div class="text-xs text-gray-500 ml-3">(150)</div>
-          </div>
-        </div>
-        <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add to Cart</a>
-        <!-- Product Content End -->
-
-      </div>
-      <!-- Single Product End -->
-      <!-- Single Product -->
-      <div class="bg-white shadow rounded overflow-hidden group">
-        <!-- product image -->
-        <div class="relative">
-          <img src="img/product10.jpg" alt="" class="w-full">
-          <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-            <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition">
-              <i class="fa-light fa-magnifying-glass"></i>
-            </a>
-            <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition">
-              <i class="fa-light fa-heart"></i>
-            </a>
-          </div>
-        </div>
-        <!-- product image End -->
-        <!-- Product Content -->
-        <div class="pt-4 pb-3 px-4">
-          <a href="#">
-            <h4 class="font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">PELAGIA SOFA</h4>
+            <h4 class="font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">Guyer Chair</h4>
           </a>
           <div class="flex items-baseline mb-1 space-x-2 font-Roboto">
             <p class="text-xl text-primary font-semibold">$45.00</p>
@@ -593,10 +553,16 @@
       <!-- Single Product End -->
 
     </div>
-    <!-- Products End -->
+    
+    </div>
 
-  </div>
-  <!-- Product Section End -->
+      <!-- products Ends -->
+
+    </div>
+  <!-- Shop Wrapper End -->
+
+
+
 
   <!-- Footer top-->
   <div class="border-t-2">
